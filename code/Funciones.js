@@ -1,3 +1,7 @@
+
+var volver = document.querySelector(".volver");
+var limpiar = document.querySelector(".limpiar");
+
 function extraerContenido(a) {
     if (a.size !== 0) {
       return "{" + [...a].toString() + "}";
@@ -99,6 +103,11 @@ function extraerContenido(a) {
     if (x1.size == 0) return "Ø";
     return text;
   }
+
+  volver.addEventListener("click", function () {
+    location.href = "../index.html";
+  });
+
 
 
     

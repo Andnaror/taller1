@@ -8,11 +8,12 @@ function recogerDatos() {
 
 var opcion = document.querySelector(".form-select");
 var realizar = document.querySelector(".realizar");
-var volver = document.querySelector(".volver");
+
+var valor;
 
 opcion.addEventListener("click", function () {
     valor = opcion.value;
-    document.querySelector("#resultado").innerHTML = "<p class='alert alert-info'></p>";
+    document.querySelector("#resultado").innerHTML = "<p></p>";
     
 });
 
@@ -30,5 +31,9 @@ realizar.addEventListener("click", function () {
         document.querySelector("#resultado").innerHTML =
             "<p class='alert alert-info'>A1 - A2: " + diferencia(alfabeto1, alfabeto2) + "</p>";
     }
+});
+
+limpiar.addEventListener("click", function () {
+    location.href = "../alfabetos.html";
 });
 

@@ -17,7 +17,7 @@
 <body>
   <div class="row">
     <div class="col">
-      <h2>Alfabetos</h2>
+      <h2 class="align-self-center">ALFABETOS</h2>
 
       <div class="input-group mb-3">
         <span class="input-group-text bg-color-info" id="Alf1">Alfabeto 1</span>
@@ -31,30 +31,30 @@
           aria-describedby="inputGroup-sizing-default" id="alf2">
       </div>
 
-      <p class='alert alert-info'> NOTA: PARA INCLUIR Lambda... USE ('λ') 
+      <p class='alert alert-info'> NOTA: PARA INCLUIR Lambda... USE ('λ')
         </br>
         PARA SEPARAR los simbolos utilice "," (coma).
       </p>
 
 
-        
-        <select class="form-select btn-primary" aria-label="Default select example">
-          <option selected>Elige una operación</option>
-          <option class="dropdown-item" value="1">Uni&oacute;n</option>
-          <option class="dropdown-item" value="2">Intersecci&oacute;n</option>
-          <option class="dropdown-item" value="3">Diferencia</option>
-        </select>
+
+      <select class="form-select btn-primary" aria-label="Default select example">
+        <option selected>Elige una operación</option>
+        <option class="dropdown-item" value="1">Uni&oacute;n</option>
+        <option class="dropdown-item" value="2">Intersecci&oacute;n</option>
+        <option class="dropdown-item" value="3">Diferencia</option>
+      </select>
 
 
       <div id="resultado" class="mensaje"></div>
-      <div class="btn btn-primary realizar">realizar</div>
-      
+      <div class="btn btn-info realizar">realizar</div>
+      <div class="btn btn-info limpiar">limpiar</div>
+
       <div>
-        <a href="/index.html" class="btn btn-color-warning">
-          volver
-        </a>
+        <div class="btn btn-secondary volver">volver</div>
+
       </div>
-      
+
 
 
     </div>
@@ -71,7 +71,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-    <script src="/code/Funciones.js"></script>
+  <script src="/code/Funciones.js"></script>
   <script src="code/Alfabetos.js"></script>
 </body>
 
