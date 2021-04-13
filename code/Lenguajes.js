@@ -29,7 +29,7 @@ opcion.addEventListener("click", function () {
   if (opcion.value == 4 || opcion.value == 6 || opcion.value == 7) {
     x.style.display = "none";
   } else {
-    x.style.display = "visible";
+    x.style.display = "";
   }
 });
 
